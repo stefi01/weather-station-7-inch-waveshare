@@ -1,0 +1,24 @@
+Sky Weather, Waveshare 7 inch.
+
+Repo: https://github.com/stefi01/weather-station-7-inch-waveshare
+Branch main. Folder ota.
+
+Upload only these two files:
+  version.txt
+  sky_7in.bin
+
+Do not upload this note.
+Do not put these files in weather-station-7-inch-screen. That repo is the other 7 inch screen.
+
+The sketch is waveshare7inch.ino.
+SKY_VER is 1.0.
+CHECK reads ota/version.txt.
+INSTALL reads ota/sky_7in.bin.
+
+Compile waveshare7inch.ino again before you copy the bin.
+The compile that already ran still names the other repo.
+After that compile, copy waveshare7inch.ino.bin to ota/sky_7in.bin.
+Leave version.txt at 1.0 until you raise SKY_VER in the sketch.
+
+A desk already showing 1.0 will say newest firmware already installed.
+CHECK only offers a higher number.
